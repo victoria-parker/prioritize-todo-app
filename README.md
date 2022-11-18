@@ -7,7 +7,7 @@ In this project I'm working on a todo app that follow the Eisenhower four-quadra
 
 ## How It's going to be Made:
 
-**Tech I'll used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, GoogleAuth, hbs.
+**Tech I'll used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, Passport, hbs.
 
 <!-- Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
 
