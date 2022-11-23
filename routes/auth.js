@@ -6,7 +6,7 @@ const router=express.Router()
 router.get('/google',passport.authenticate('google',{scope:['profile']}))
 
 //google auth callback
-router.get('google/callback',passport.authenticate('google',{failureRedirect:'/'}), (req,res)=>{
+router.get('/google/callback',passport.authenticate('google',{failureRedirect:'/'}), (req,res)=>{
     res.redirect('/dashboard')
 })
 
