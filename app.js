@@ -10,6 +10,9 @@ const connectDB=require('./config/db')
 //Load config
 dotenv.config({path:'./config/config.env'})
 
+//db connection
+connectDB()
+
 //intialize app
 const app=express()
 
