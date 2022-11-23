@@ -7,6 +7,9 @@ const passport=require('passport')
 const session=require('express-session')
 const connectDB=require('./config/db')
 
+//Load config
+dotenv.config({path:'./config/config.env'})
+
 //intialize app
 const app=express()
 
